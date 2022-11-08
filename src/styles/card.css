@@ -1,0 +1,62 @@
+.verify-card {
+  text-align: left;
+  margin: 0.5rem 0;
+}
+.http-verification-info {
+  padding-right: 6.933333333em;
+}
+.file-preview {
+  background: #f7f7f7;
+  position: relative;
+  font-size: 0.833333333em;
+  padding: 1.6em 2.9333em 1.6em 1.6em;
+}
+.paper-fold {
+  position: absolute;
+  width: 2em;
+  height: 2em;
+  border-left: solid #d9d9d9 1px;
+  border-bottom: solid #d9d9d9 1px;
+  right: 0;
+  top: 0;
+  background: linear-gradient(
+    45deg,
+    #f7f7f7 0%,
+    #f7f7f7 50%,
+    #ffffff 50%,
+    #ffffff 100%
+  );
+}
+.file-ver-info-header {
+  color: #808080;
+}
+.file-preview pre {
+  white-space: pre-line;
+  word-break: break-all;
+}
+pre {
+  margin: 0;
+  font-family: Source Code Pro, monospace;
+}
+.file-ver-info-header {
+  color: #808080;
+}
+.file-preview pre {
+  white-space: pre-line;
+  word-break: break-all;
+}
+.download-file svg {
+  fill: #5bc17f;
+  width: 1.333333333em;
+}
+.mdicon {
+  position: relative;
+  top: 0.4em;
+}
+
+.download-file a {
+  color: #5bc17f;
+}
+.file-ver-info-header {
+  color: #808080;
+}
