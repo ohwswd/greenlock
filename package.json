@@ -6,16 +6,24 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
-    "preview": "vite preview"
+    "postbuild": "npm run deploy",
+    "deploy": "node bin/deploy.js",
+    "preview": "vite preview",
+    "pm2": "pm2 start index.js"
   },
   "dependencies": {
     "@element-plus/icons-vue": "^2.0.10",
+    "compression": "^1.7.4",
     "element-plus": "^2.2.19",
     "express": "^4.18.2",
     "fs": "^0.0.1-security",
     "https": "^1.0.0",
+    "inquirer": "^9.1.4",
     "pinia": "^2.0.23",
+    "spdy": "^4.0.2",
+    "ssh2-sftp-client": "^9.0.4",
     "url": "^0.11.0",
+    "vite-plugin-externals": "^0.5.1",
     "vue": "^3.2.37",
     "vue-router": "^4.0.13"
   },
@@ -35,6 +43,7 @@
     "unplugin-auto-import": "^0.11.4",
     "unplugin-vue-components": "^0.22.9",
     "vite": "^3.1.0",
+    "vite-plugin-compression": "^0.5.1",
     "vue-tsc": "^0.40.4"
   }
 }

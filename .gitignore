@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+script/config.js
 # Build and Release Folders
 bin-debug/
 bin-release/
@@ -17,7 +17,7 @@ bin-release/
 # Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
 # should NOT be excluded as they contain compiler settings and other important
 # information for Eclipse / Flash Builder.
-=======
+
 # Logs
 logs
 *.log
@@ -42,4 +42,4 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
->>>>>>> 4ebdbaa (初次提交在线https证书申请)
+
